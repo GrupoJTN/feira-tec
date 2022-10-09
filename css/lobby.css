@@ -1,0 +1,124 @@
+:root{
+ 
+    --background: white;
+    --primary-color:#126782;
+    
+ 
+ }
+ 
+ 
+ ul#pontos {
+     list-style-type: none;
+     margin: 10;
+     padding: 0;
+     overflow: hidden;
+     position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+     background-color: var(--primary-color);
+     text-transform: uppercase;
+    
+ 
+    
+   }
+   li {
+     float: left;
+    border-right: 1px solid var(--primary-color);
+    
+     
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     
+     
+     
+   }
+   /* Change the link color to #111 (black) on hover */
+   li a:hover {
+     background-color: var(--color1);
+     font-family: 'Crimson Text', serif;
+   }
+   .active {
+     background-color: var(---color2);
+   }
+   li:last-child {
+     border-right: none;
+   }#logo{
+    width: 10%;
+    height:87px;
+   }#TopBanner{
+    background-color: var(--primary-color);
+   }#ct{
+    float:right;
+   }#Conteudo{
+    align-self: center;
+     width: 99,8%;
+     height: 700px;
+     background-color: var(--background);
+     border-radius: 18px;
+     
+   }#jogo-1{
+    width: 10%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding-right: 100px;
+    margin: 10px 20px 10px 40px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+   }#jogo-2{
+    width: 10%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding-right: 100px;
+    margin: 10px 5px 10px 200px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-evenly;
+     display:inline-block;
+   }#jogo-3{
+    width: 10%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding-right: 100px;
+    margin: 5px 2px 30px 250px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+   }#jogo-4{
+    width: 10%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding-right: 100px;
+    margin: 3px 10px 30px 40px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+     
+   }#jogo-5{
+    width: 10%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding-right: 100px;
+    margin: 5px 2px 30px 209px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 18px;
+    justify-content: space-around;
+     display:inline-block;
+   }.div-geral{
+    border: 4px solid;
+    justify-content: space-evenly;
+   }

@@ -1,0 +1,95 @@
+:root{
+ 
+    --background: white;
+    --primary-color:#126782;
+    
+ 
+ }body{
+    background: white;
+ }ul#pontos {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+
+   
+
+   
+  }
+  li {
+    float: left;
+   border-right: 1px solid var(--primary-color);
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+    
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: var(--color1);
+    font-family: 'Crimson Text', serif;
+  }
+  .active {
+    background-color: var(---color2);
+  }
+  li:last-child {
+    border-right: none;
+  }#logo{
+    width: 10%;
+    height:87px;
+   }#TopBanner{
+    background-color: var(--primary-color);
+   }.invalidado{
+    color: red;
+   }#bloco-1{
+    background-color:var(--primary-color);
+    width:40%;
+    height:500px;
+    margin:0 auto;
+    text-align:center;
+    text-transform: none;
+    color: white;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0,0.25 );
+   }#ct{
+    float:right;
+   }.geral-input{
+    margin: 0px 0px 0px 0px;
+    width:70%;
+    height:50px;
+    font-size: 16px;
+   }#icongeral{
+    box-shadow: 10px;
+   }#text-titular{
+    margin-top: 10px;
+    
+   }#invisivel{
+    visibility:hidden;
+   }#bt-1{
+    background-color: var(--background);
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    color: var(--primary-color);
+    margin-top: 1%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor:pointer ;
+    transition: 0.3s ease-in-out;
+   }#bt-1:hover{
+    background-color: var(--primary-color);
+    color: #fff;;
+   }
