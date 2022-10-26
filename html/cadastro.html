@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">   
-    <script src="https://kit.fontawesome.com/0f0d4ee73a.js" crossorigin="anonymous" defer></script>
+  <script src="https://kit.fontawesome.com/0f0d4ee73a.js" crossorigin="anonymous" defer></script>
+  <link rel="shortcut icon" href="/img/blue_brain_2-removebg-preview.png" type="image/x-icon" />
+  
 </head>
 <body>
     <div id="TopBanner">
@@ -38,7 +30,7 @@
         <ul id="pontos">
             <li><a onclick="mostrar()"  id="button-pont"></a></li>
             <div id="pontos2">
-                <li><a href="/html/lobby.html" id="l-c-geral">home</a></li>
+                <li><a href="/html/index.html" id="l-c-geral">home</a></li>
                 <li><a href="/html/login.html" id="l-c-geral">login</a></li>
                 <li><a href="" id="l-c-geral">cadastre-se</a></li>
                 <li id="ct"><a href="">contate-nos</a></li>
@@ -51,21 +43,25 @@
         <!-- text titular  -->
         <h1 id="text-titular">Crie sua conta aqui</h1>
         <!-- icone de user -->
+        <p>Digite seu nome</p>
         <i class="fa-solid fa-user" id="icon-geral"></i>
         <!-- nome input -->
-        <input type="text" id="i1-nome" class="geral-input"placeholder="Digite seu nome">
+        
+        <input type="text" id="i1-nome" class="geral-input"placeholder="">
         <!-- h1 de apoio -->
         <h1 id="h1-apoio"></h1>
         <!-- icone -->
+        <p>Digite seu email</p>
         <i class="fa-regular fa-at" id="icon-geral"></i>
         <!-- email input -->
-        <input type="email" id="i2-email" class="geral-input" placeholder="Digite seu email" onblur="validaEmail(email)">
+        <input type="email" id="i2-email" class="geral-input" placeholder="example@gmail.com" onblur="validaEmail(email)">
         <!-- email invalidado -->
         <h1 id="e-i"></h1>
+        <p>Digite sua senha</p>
         <!-- icone de senha -->
         <i class="fa-solid fa-lock" id="icon-geral"></i>
         <!-- senha input  -->
-        <input type="password" id="i-3-senha" class="geral-input" placeholder="Crie uma senha" onblur="validaSenha(senha)">
+        <input type="password" id="i-3-senha" class="geral-input" placeholder="********" onblur="validaSenha(senha)">
         <!-- senha invalida  -->
         <h1 id="i-e"></h1>
         <!-- texto de obs -->

@@ -51,6 +51,7 @@
    }#logo{
     width: 10%;
     height:87px;
+    display: inline-flex;
    }#TopBanner{
     background-color: var(--primary-color);
    }#ct{
@@ -63,56 +64,39 @@
      border-radius: 18px;
      
    }#jogo-1{
-    width: 10%;
-    height: 200px;
+    min-width: 10%;
+    max-width: 20%;
+    min-height: 200px;
+    max-height: 400px;
     background-color: var(--primary-color);
     padding-right: 100px;
-    margin: 10px 20px 10px 40px;
+    margin: 10px 20px 10px 120px;
     text-align: center;
     box-shadow: 10px;
     border-radius: 18px;
     justify-content: space-around;
      display:inline-block;
    }#jogo-2{
-    width: 10%;
-    height: 200px;
+    min-width: 10%;
+    max-width: 20%;
+    min-height: 200px;
+    max-height: 400px;
     background-color: var(--primary-color);
     padding-right: 100px;
-    margin: 10px 5px 10px 200px;
+    margin: 10px 20px 10px 110px;
     text-align: center;
     box-shadow: 10px;
     border-radius: 18px;
     justify-content: space-evenly;
      display:inline-block;
    }#jogo-3{
-    width: 10%;
-    height: 200px;
+    min-width: 10%;
+    max-width: 20%;
+    min-height: 200px;
+    max-height: 400px;
     background-color: var(--primary-color);
     padding-right: 100px;
-    margin: 5px 2px 30px 250px;
-    text-align: center;
-    box-shadow: 10px;
-    border-radius: 18px;
-    justify-content: space-around;
-     display:inline-block;
-   }#jogo-4{
-    width: 10%;
-    height: 200px;
-    background-color: var(--primary-color);
-    padding-right: 100px;
-    margin: 3px 10px 30px 40px;
-    text-align: center;
-    box-shadow: 10px;
-    border-radius: 18px;
-    justify-content: space-around;
-     display:inline-block;
-     
-   }#jogo-5{
-    width: 10%;
-    height: 200px;
-    background-color: var(--primary-color);
-    padding-right: 100px;
-    margin: 5px 2px 30px 209px;
+    margin: 10px 20px 10px 120px;
     text-align: center;
     box-shadow: 10px;
     border-radius: 18px;
@@ -121,4 +105,14 @@
    }.div-geral{
     border: 4px solid;
     justify-content: space-evenly;
+   }#nome-marca{
+    color: white;
+    display: inline-flex;
+    font-size: 50px;
+   }#img-geral{
+      max-width: 90%;
+      min-width : 50%;
+      min-height: 150;
+      max-height: 200px;
+      margin: 0px 0px 0px 70px;
    }
